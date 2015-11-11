@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * Package :- Boss_Zoom-1.5.tgz
+ * Version :- 1.5
+ * Edition :- Community
+ * Developed By :- https://github.com/manishmore
+ *
+ */
+-->
+<config>
+    <modules>
+        <Boss_Zoom>
+            <version>3.0.2</version>
+        </Boss_Zoom>
+    </modules>
+    <global>
+        <helpers>
+            <boss_zoom>
+                <class>Boss_Zoom_Helper</class>
+            </boss_zoom>
+        </helpers>
+    </global>
+    <default>
+        <boss_zoom>
+            <general>
+                <enabled>1</enabled>
+                <defaulzoom>0</defaulzoom>
+            </general>
+        </boss_zoom>
+    </default>
+    <frontend>
+        <layout>
+            <updates>
+                <boss_zoom>
+                    <file>zoom.xml</file>
+                </boss_zoom>
+            </updates>
+        </layout>
+    </frontend>
+</config>
